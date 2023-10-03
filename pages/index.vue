@@ -13,10 +13,6 @@
 </template>
 
 <style>
-.text {
-  color: v-bind(color);
-}
-
 @media (max-width: 600px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
